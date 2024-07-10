@@ -1,4 +1,4 @@
-Contents
+# Contents
 
 Cover
 
@@ -264,7 +264,7 @@ To my wife Betsy. Without her unfailing love and support I could have accomplish
 
 
 
-Preface
+# Preface
 
 The book you are holding in your hands is the product of nearly two decades of my study and experience as a trader, covering the full span of actively traded markets and time frames. I owe much to authors and traders who have come before me, for no one produces anything significant in a vacuum. I would not have been successful without the help and guidance of my mentors, but I learned many of the lessons here from my own mistakes. In some ways, this work represents a radical break from many of the books that have preceded it, and I hope it encourages you to question much of the traditional thinking of technical analysis.
 
@@ -314,7 +314,7 @@ New York, New York
 
 
 
-Acknowledgments
+# Acknowledgments
 
 First, to Linda Raschke: I owe you a debt I can never repay—who would have thought your kindness that began with answering a simple e-mail so many years ago would have had such a profound impact on someone’s life?
 
@@ -332,17 +332,17 @@ Last, but certainly not least, Kevin Commins and Meg Freeborn at John Wiley & So
 
 
 
-PART I
+# PART I
 
-The Foundation of Technical Analysis
-
-
+# The Foundation of Technical Analysis
 
 
 
-CHAPTER 1
 
-The Trader’s Edge
+
+# CHAPTER 1
+
+# The Trader’s Edge
 
 If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things.
 
@@ -356,7 +356,7 @@ Our work here concerns the latter approach. Few traders make decisions in a vacu
 
 
 
-DEFINING A TRADING EDGE
+## DEFINING A TRADING EDGE
 
 
 Most of the time, markets are efficient, meaning that all available information is reflected in asset prices, and that price is a fair reflection of value. Most of the time, prices fluctuate in a more or less random fashion. Though a trader may make some profitable trades in this type of environment purely due to random chance, it is simply not possible to profit in the long run; nothing the trader can do will have a positive effect on the bottom line as long as randomness dominates price changes. In theory, in a true zero-expectancy game, it should be possible to trade in a random environment and to break even, but reality is different. Trading accounts in the real world suffer under the constant drag of a number of trading frictions, transaction costs, errors, and other risks. Together, these create a high hurdle that must be overcome in order to break even. It is even possible for a trader to work with a positive expectancy system and still lose a significant amount of money to the vig.
@@ -365,11 +365,11 @@ Newer traders especially are often drawn to focus on elements of performance psy
 
 A positive expectancy results when the trader successfully identifies those moments where markets are slightly less random than usual, and places trades that are aligned with the slight statistical edges present in those areas. Some traders are drawn to focus on high-probability (high win rate) trading, while others focus on finding trades that have excellent reward/risk profiles. Neither of these approaches is better than the other; what matters is how these two factors of probability and reward/risk ratio interact. For instance, it is possible to be consistently profitable with a strategy that risks many times more than what is made, as long as the win rate is high enough, or with a much lower percentage of winning trades if the reward/risk ratio compensates. In all cases, the trading problem reduces to a matter of identifying when a statistical edge is present in the market, acting accordingly, and avoiding market environments that are more random. To do this well, it is essential to have a good understanding of how markets move and also some of the math behind expectancy and probability theory.
 
-Expected Value
+### Expected Value
 
 Expected value (or expectancy) is a term from probability theory that every good trader and gambler understands intuitively. For our purposes, we need to define a number of scenarios that each have a precisely defined payout (or loss), and we also need to be able to quantify the probabilities of each scenario occurring. If we are analyzing actual trading records, this can be as simple as calculating summary statistics for historical trades, but the problem is much more complicated on a look-forward basis because we have to make assumptions about how closely future conditions are likely to resemble history. Furthermore, we also need to make sure that our calculations include every possible outcome so that the probabilities sum to 1.0; this is sometimes difficult in real-world applications where unforeseeable outlier events may lurk in the future. Leaving these practical considerations aside for a moment and focusing on the underlying math, multiplying the payout of each scenario by the probability of each scenario occurring creates a probability-weighted average of the payouts, which is also called the expected value.
 
-The Expected Value Formula
+### The Expected Value Formula
 
 Formally, for k possible scenarios, each with a payoff of x and associated probability p, the expected value E( ) is defined as:
 
@@ -385,7 +385,7 @@ Consider a simplified example where a trader can either make or lose 1 point wit
 
 The bottom line is that you must have an edge. If you are not trading with a statistical advantage over the market, everything else is futile. Nothing will help. Discipline, money management, execution skills, and positive thinking add great value in support of an actual edge, but they are not edges in themselves. From a statistical standpoint, the definition of an edge is simple: can you properly identify entry and exit points in the market so that, over a large sample size, the sum of the profit and loss (P&L) from your winning trades is greater than the sum of your losing trades? The question then becomes: how do you find, develop, refine, and maintain an edge? There are many answers to that question; this book shows one possible path.
 
-Where Does the Edge Come From?
+### Where Does the Edge Come From?
 
 Many of the buying and selling decisions in the market are made by humans, either as individuals, in groups (as in an investment committee making a decision), or through extension (as in the case of execution algorithms or “algos”). One of the assumptions of academic finance is that people make rational decisions in their own best interests, after carefully calculating the potential gains and losses associated with all possible scenarios. This may be true at times, but not always. The market does not simply react to new information flow; it reacts to that information as it is processed through the lens of human emotion. People make emotional decisions about market situations, and sometimes they make mistakes. Information may be overweighted or underweighted in analysis, and everyone, even large institutions, deals with the emotions of fear, greed, hope, and regret.
 
@@ -393,7 +393,7 @@ In an idealized, mathematical random walk world, price would have no memory of w
 
 There is no mystical, magical process at work here or at any other time in the market. Buying and selling pressure moves prices—only this, and nothing more. If someone really wants to buy and to buy quickly, the market will respond to the buying and sellers will raise their offers as they realize they can get a better (higher) price. Similarly, when large sell orders hit the market, buyers who were waiting on the bid will get out of the way because they realize that extra supply has come into the market. More urgency to sell means lower prices. More buying pressure means higher prices. The conclusion is logical and unavoidable: buying and selling pressure must, by necessity, leave patterns in the market. Our challenge is to understand how psychology can shape market structure and price action, and to find places where this buying and selling pressure creates opportunities in the form of nonrandom price action.
 
-The Holy Grail
+### The Holy Grail
 
 This is important. In fact, it is the single most important point in technical analysis—the holy grail, if you will. Every edge we have, as technical traders, comes from an imbalance of buying and selling pressure. That’s it, pure and simple. If we realize this and if we limit our involvement in the market to those points where there is an actual imbalance, then there is the possibility of making profits. We can sometimes identify these imbalances through the patterns they create in prices, and these patterns can provide actual points around which to structure and execute trades. Be clear on this point: we do not trade patterns in markets—we trade the underlying imbalances that create those patterns. There is no holy grail in trading, but this knowledge comes close. To understand why this is so important, it is necessary to first understand what would happen if we tried to trade in a world where price action was purely random.
 
@@ -401,7 +401,7 @@ This is important. In fact, it is the single most important point in technical a
 
 
 
-FINDING AND DEVELOPING YOUR EDGE
+## FINDING AND DEVELOPING YOUR EDGE
 
 
 The process of developing and refining your edge in the market is exactly that: an ongoing process. This is not something you do one time; it is an iterative process that begins with ideas, progressing to distilling those ideas to actionable trading systems, and then monitoring the results. Midcourse corrections are to be expected, and dramatic retooling, especially at the beginning, is common. It is necessary to monitor ongoing performance as markets evolve, and some edges will decay over time. To be successful as an individual discretionary trader means committing to this process. Trading success, for the discretionary trader, is a dynamic state that will fluctuate in response to a multitude of factors.
@@ -420,7 +420,7 @@ One solution is to focus on the three-day to two-week swings, as many swing trad
 
 
 
-GENERAL PRINCIPLES OF CHART READING
+## GENERAL PRINCIPLES OF CHART READING
 
 
 Charts are powerful tools for traders, but it is important to think deeply about what a chart is and what it represents. Though it is possible to trade by focusing on simple chart patterns, this approach also misses much of the richness and depth of analysis that are available to a skilled chart reader. Top-level trading combines traditional left brain skills of logic, math, and analytical thinking with the intuitive, inductive skills of right brain thinking. Charts speak directly to the right brain, whose native language is pictures and images. Part of your edge as a discretionary trader comes from integrating these two halves of your being; charts are a powerful tool that can facilitate this integration and foster the growth of intuition.
@@ -429,7 +429,7 @@ Modern software packages are a mixed blessing for traders. On one hand, they hav
 
 When it comes to chart setup, there is no one right way, but I will share my approach. Everything I do comes from an emphasis on clarity and consistency. Clean charts put the focus where it belongs: on the price bars and the developing market structure. Tools that highlight and emphasize the underlying market’s structure are good; anything that detracts from that focus is bad. When you see a chart, you want the price bars (or candles) to be the first and most important thing your eye is drawn to; any calculated measure is only a supplement or an enhancement. Consistency is also very important, for two separate reasons. First, consistency reduces the time required to orient between charts. It is not unusual for me to scan 500 charts in a single sitting, and I can effectively do this by spending a little over a second on each chart. This is possible only because every one of my charts has the same layout and I can instantly orient and drill down to the relevant information. Consistency is also especially important for the developing trader because part of the learning process is training your eye to process data a certain way. If you are forever switching formats, this learning curve becomes much longer and steeper, and the development of intuition will be stymied. Keep the same format between all markets and time frames, and keep the setup of all of your charts as consistent as possible.
 
-Chart Scaling: Linear versus Log
+### Chart Scaling: Linear versus Log
 
 The one exception to the principle of keeping charts consistent might be in the case of very long-term charts spanning multiple years, or shorter-term charts in which an asset has greatly increased in value (by over 100 percent). In these cases, the vertical axis of the chart should be scaled logarithmically (called “semi-log” in some charting packages) to better reflect the growth rate of the market. The idea behind a log scale chart is that the same vertical distance always represents the same percentage growth regardless of location on the axis.
 
@@ -447,7 +447,7 @@ near the right edge of the chart, while the second, the log scale chart, shows m
 
 
 
-Choosing Time Frames
+### Choosing Time Frames
 
 Discretionary traders must clearly choose and define the time frame within which they will trade, and this choice of time frames is tied into deeper questions of personality and trading style. Most of the trading ideas and principles we examine in this book can be applied to all markets and all time frames, with some adjustments, but most traders will probably find themselves best suited to a specific set of markets and time frames. Traders switching time frames or asset classes will usually undergo a painful adjustment period while they figure out how to apply their tools in the new context. For now, let’s leave these important considerations behind and focus on only the mechanical issues of setting up charts to cover multiple time frames. In the end, your charts must be a tool that serves your trading style, not the other way around.
 
@@ -457,7 +457,7 @@ In general, time frames should be related to each other by a factor of 3 to 5. T
 
 The rule of consistency also applies to choice of time frames. Once you have settled on a trading style and time frame, be slow to modify it unless you have evidence that it is not working. This story will be told with the most clarity and power in a consistent time frame. In addition, if you catch yourself wanting to look at a time frame you never look at while you are in a losing trade, be very careful. This is often a warning of an impending break of discipline.
 
-Bars, Candles, or Other Choices
+### Bars, Candles, or Other Choices
 
 Most traders today seem to be focused on using candlestick charts, but the more old-fashioned bar charts should not be overlooked. Both chart types display the same data points but in a slightly different format; they have the same information on them, so one is not better than the other. The main advantage of bar charts is that they can be cleaner visually and it is usually possible to fit more data in the same space because bars are thinner than candles. For many traders, the colors of candlestick charts make it easier to see the buying and selling pressure in the market, providing another important visual cue that helps the trader process the data faster.
 
@@ -467,7 +467,7 @@ Another issue to consider, particularly with intraday charts, is how much import
 
 
 
-INDICATORS
+## INDICATORS
 
 
 Indicators are calculated measures that are plotted on price charts, either on top of the price bars or in panels above or below the bars. There are many different indicators in common usage, and traders have a wide range of approaches and applications for these tools. Some traders are minimalists, using few or no indicators at all, while others will use multiple indicators in complex relationships. In addition, some indicators are extremely simple calculations, while others are very complex, perhaps even using complex calculations borrowed from other applications such as radar or digital signal processing. There is certainly no one right way to set up or use indicators, but, here again, consistency is paramount. Few traders find success by constantly switching between indicators. There is no holy grail or combination of tools that will lead to easy trading profits.
@@ -478,7 +478,7 @@ One other important point is that you must intimately understand the tools you u
 
 
 
-THE TWO FORCES: TOWARD A NEW UNDERSTANDING OF MARKET ACTION
+## THE TWO FORCES: TOWARD A NEW UNDERSTANDING OF MARKET ACTION
 
 
 Price action is a complex and imperfectly defined subject. There are many traders who believe that price action is something nebulous that cannot be quantified. To other traders, trading price action means trading the patterns of price bars on charts, without the addition of indicators or other lines. In this book, price action simply means how markets usually move, which, frankly, is, usually randomly. Be clear on this point: markets are usually random and most of the patterns markets create are also random. However, we can sometimes identify spots where price movement is something less than random and is somewhat more predictable, and these less-than-random spots may offer profitable trading opportunities.
@@ -501,7 +501,7 @@ This interplay of motive and resistive forces, from a very high-level perspectiv
 
 
 
-PRICE ACTION AND MARKET STRUCTURE ON CHARTS
+## PRICE ACTION AND MARKET STRUCTURE ON CHARTS
 
 
 Charts are a way to organize and to structure the flood of information the market generates and can reveal clues about the strength of the underlying forces. There is no one right way to read a chart, but I will share the basic elements of an approach that has been very useful to me over the years. These tools and this framework have shown themselves to be reliable time and time again, but these are my tools and my method. You must make them your own tools. Use everything here as a collection of ideas from which you can begin to build your own approach to the markets.
@@ -510,7 +510,7 @@ Market structure refers to the static structure visible on charts, made up of pr
 
 Price action is the dynamic process that creates market structure. Price action is also more subjective; in most cases, market structure is concrete. Market structure is static and is clearly visible on a chart, but price action usually must be inferred from market structure. Also, both are specific to time frames, though price action is often visible as the market structure of lower time frames. These definitions and their implications will become clear over the next chapters.
 
-Pivot Points
+### Pivot Points
 
 The basic units of market structure on any time frame are pivot highs and lows (also called swing highs or lows). A pivot high is a bar that has a higher high than the bar that came before it and the bar that comes after it. At least in the very short term, the bar’s high represents the high-water mark past which buyers were not able to push price, and can be considered a very minor source of potential resistance. A pivot low is the same concept inverted: a bar with a lower low relative to both the preceding and the following bars. Figure 1.3 shows a chart with every pivot high and pivot low marked. Note that it is possible for a bar to be both a pivot high and a pivot low at the same time, and that pivot highs and pivot lows are very common.
 
@@ -534,7 +534,7 @@ FIGURE 1.5 Third-Order Pivots Usually Define the Most Important Market Structure
 
 It also should be obvious that this is a backward-looking analytical method. This is a problem with all swing or wave methods: they offer fantastic explanations of past market action, but have little or no predictive power at the right edge. This pivot structure is not intended to be a trading methodology; it is context. For instance, a sharp down move might be interpreted differently if it comes at a point where the market had been making consistently higher second-order pivot highs and lows compared to an environment where they were more randomly distributed. As another example, a movement that penetrates a significant third-order pivot high or low can sometimes significantly change the market environment. The purpose of this tool is to provide that structure and context, not actual trade entries.
 
-Length of Swing
+### Length of Swing
 
 Once we have defined the second- or third-order pivot structure of the market, we can connect the pivot highs and lows with lines to outline the swing structure of the market. (In the spots where highs and lows do not alternate, take the lowest low of the series or the highest high of the series as the anchor point.) If this type of analysis is new to you, it is probably a good idea to draw the structure on a few hundred charts until it becomes somewhat intuitive; eventually you want to be able to glance at a chart and see this structure immediately. Like everything else, it gets easier only with continued practice and familiarity. It is impossible to overstate the importance of this skill.
 
@@ -584,7 +584,7 @@ FIGURE 1.10 A Breakout Preceded by Higher Lows into Resistance
 
 This is certainly not a complete encyclopedia of swing patterns, but it does highlight the basic concept: the length of swings and the relative position of pivot points can give insight into the character of the market.
 
-Market Structure versus Traditional Chart Patterns
+### Market Structure versus Traditional Chart Patterns
 
 There are two broad schools of thought in technical analysis. One approach is to catalog every possible chart pattern and variation of those patterns. A trader using this approach might look for wedges, pennants, flags, boxes, ledges, head and shoulders patterns, and double tops and bottoms—these are only a few of the traditional patterns, and many more have worked their way into modern practice. These traders spend a lot of time studying these patterns and variations, and they usually have specific trading plans for each pattern. Richard Schabacker was the first writer to codify this approach, in the late 1920s, and it was crystallized in his landmark 1932 Technical Analysis and Stock Market Profits.
 
@@ -594,7 +594,7 @@ The second broad school of technical analysis is Richard Wyckoff’s approach. T
 
 
 
-Reading Inside the Bars
+### Reading Inside the Bars
 
 One skill that is often overlooked in chart reading is the ability to look at a bar on a chart and to infer what price action might have created that bar. In practical terms, this means being able to look at a bar on one time frame and immediately understand the most likely lower time frame scenarios that could have created that bar. In almost every case, there are multiple possibilities, but some are much more likely than others. It is not necessary to be 100 percent correct on this; sometimes we will simply guess wrong, but working to develop this skill will greatly increase the trader’s intuitive grasp of price charts. For instance, consider the single candle in Figure 1.11 with an empty body (meaning that the close was higher than the open) and with moderately small shadows on the top and bottom. There are three things we know with certainty about this candle: the close was higher than the open; at some point, the market traded lower than the open; and, at some point, it traded higher than the close.
 
@@ -610,7 +610,7 @@ FIGURE 1.12 Some of the Many Possibilities of Lower Time Frame Action That Could
 
 Though charts contain a lot of noise and random action, there are points where structures within individual bars, or a small set of bars, are very important. One simple pattern to think about is that the location of the closing point relative to the high and the low of the bar may give some insight into the buying or selling conviction within that bar. For instance, a close near the high of the bar usually shows that buyers were in control going into the end of the time period. Yes, there are other possibilities and patterns that could have created the close near the high, but, more often than not, buyers were in control. Conversely, closes near the middle of the bar, visible as long shadows on candle charts, show a certain neutrality and lack of conviction. It is also worth considering the extreme case where several bars in a row close on their absolute highs. Many traders would assume that this is indicative of a very strong market, but, statistically, this condition more often indicates short-term exhaustion and at least a slight reversal—be careful of entering with the trend after several bars close on their highs.
 
-Trend and Trading Range Bars
+### Trend and Trading Range Bars
 
 Large bars relative to recent bars on one time frame most likely contain trends on the lower time frame, especially if the close and open are near opposite ends of the bars. Small bars on one time frame are probably trading ranges on lower time frames, and, in general, bars that have their opens and closes nearer to the center point of the bar are also more likely to have been trading ranges. This is a simple concept, but understanding this dynamic is a key to building intuition about price action and the interaction of time frames. There is much subtlety here, but these are the essential concepts. Figure 1.13 shows lower time frame trends and trading ranges within the three boxes in the left panel that correspond to the three higher time frame bars in the right panel. Do not accept price bars at face value. Always think deeply about what is going on behind the scenes, on lower time frames.
 
@@ -652,7 +652,7 @@ The examples in this section were deliberately chosen to be less than perfect be
 
 
 
-CHARTING BY HAND
+## CHARTING BY HAND
 
 
 I started trading in the 1990s, in the twilight years of the old, classic paper chart books. A book would come in the mail at the beginning of the week, printed on newsprint; each day it was up to the trader to track down prices for each of the markets and update the charts by drawing a new price bar. At the beginning of the next week, a new book would arrive with the past week’s prices filled in, and the process would repeat. Actually, in my very early trading days I did not even have the chart book, but I bought a pad of graph paper, went to the library, and started building charts from histories I found in back issues of newspapers. I did not realize the value of what I was doing at the time, but this process immersed me in patterns as they were emerging. There is something about physically drawing lines that engages a different part of the brain than looking at a screen does. Because of this work, I assimilated patterns quickly and developed a sense of the forces at work behind the patterns early in my development. When you are drawing open, high, low, and close on each price bar, you will spend time during the day wondering what new configurations could appear at the end of the day, and thinking about how the day’s trading might unfold to create those patterns.
@@ -671,9 +671,9 @@ The other way is to construct a swing chart, which is also known as a kagi chart
 
 
 
-CHAPTER 2
+# CHAPTER 2
 
-The Market Cycle and the Four Trades
+# The Market Cycle and the Four Trades
 
 To every thing there is a season, and a time to every purpose under the heaven.
 
@@ -687,7 +687,7 @@ Wyckoff proposed a four-stage market cycle. His idea was that the cycle resulted
 
 
 
-WYCKOFF’S MARKET CYCLE
+## WYCKOFF’S MARKET CYCLE
 
 
 In this brief introduction, we will consider three aspects of each phase of the cycle. First, we will try to understand the market using a simplified model focusing on the psychological perspective of two major groups: the smart money players who are assumed to be driving the market, and the general, uninformed public. Second, we will consider the crowd psychology of the public, and how individuals are naturally inclined to make mistakes that work in favor of the smart money. Last, we will begin to consider the distinctions and patterns of each part of the cycle from a pure price-pattern perspective; this analysis is important because it motivates and provides context for many trading patterns and methods.
@@ -708,7 +708,7 @@ FIGURE 2.1 The Classic Wyckoff Cycle
 
 
 
-Accumulation—Building a Base
+### Accumulation—Building a Base
 
 Accumulation is the first stage of the cycle; large operators (funds, banks, other institutions, or even large individual traders) buy without alerting the public to their intentions. This is actually very difficult to do, as buying pressure will naturally support and even raise prices. These players must buy slowly and generally passively over a long period of time to build their positions. From a technical perspective, prices move sideways in a trading range bounded by rough areas of support and resistance, an intermediate-term moving average is flat, and price chops back and forth on both sides of that moving average. As we mentioned earlier, these conditions are indicative of a market in equilibrium, and most technical traders should avoid trading price action like this. However, Wyckoff argues that this is precisely the goal of the longer-term players. They are working very hard to make this look like a market in equilibrium, but it is not. There is a subtle imbalance as smart money is buying and accumulating positions in preparation for the coming uptrend.
 
@@ -730,7 +730,7 @@ This is an important lesson about putting chart patterns in context. A simple st
 
 From a longer-term perspective, crowd psychology is simple and easy to understand while a market is in accumulation. If the smart money operators are accumulating well and doing their job right, the public simply does not care about the market. The distinguishing psychological feature of a market in accumulation is that it is off the public’s radar; no one is thinking about it or talking about it. No journalist writes an article about a market in sideways consolidation, and no one talks about such markets on television. They are invisible and boring; only smart, professional traders know to watch for these formations. At some point, unobserved and unnoticed, the accumulation breaks to the upside and the stock moves into the next phase of the cycle.
 
-Markup: The Classic Uptrend
+### Markup: The Classic Uptrend
 
 The second part of the cycle is the uptrend (markup), and the action of the smart money is not as clearly defined here. Perhaps the institutions may simply hold their full line until the stock is marked up to prices at which they consider it advantageous to sell, or perhaps they will actively buy and sell with the fluctuations of the trend. The public psychology in an uptrend is a subject for study in and of itself. Usually, trends begin out of accumulation and there is little attention from the public. Trends begin in sneaky, unnoticed ways, but, at some point, the price advances far enough that people start to take notice. The classic first reaction is disbelief, followed by a desire to fade (go against) the move. If Wheat futures have been locked in a $1.00 range for a couple of years, most people are apt to regard a price $0.50 above that range as too high and will be inclined to short, thinking the aberration will correct itself. This price movement will still not be in focus in the major media, but, when people do talk about it, they will almost universally observe that “fundamentals do not support this move” and there are also many narrative factors that suggest “the risk is too high to consider buying up here.” At the beginning of trends, the prevailing mind-set from the public is usually that the trend is somehow wrong.
 
@@ -744,7 +744,7 @@ In some trends, mania sets in and things get a little crazy. Now, everyone will 
 
 Here is an important lesson for the objective trader: your clue to the fact that psychology has reached the mania stage is when stories begin to show up in the popular, nonfinancial media. At times like that you have one job and one job only—detach yourself from the mass psychology and begin to exit the market. At the very least, you must book partial profits and take steps to reduce the risk on your remaining line.
 
-Distribution—The End?
+### Distribution—The End?
 
 Nothing goes on forever. At some point, higher prices will bring increased supply into the market, balance is achieved, and prices will stop rising. From a technical perspective, there are, broadly speaking, two ways this can happen. The manic blow-off end-of-trend pattern just discussed is unusual, but deserves attention because it presents dramatic opportunities and dangers. More common is that the uptrend just runs out of steam, and the market goes into another sideways trading range. The large operators who accumulated positions in the first stage and who held most of their line through the markup now begin quietly selling their inventory to the public (distribution). In the accumulation phase, it was important that they hide their buying so as to not cause the market to break into an uptrend too early. Similarly, they must now sell carefully because too much selling pressure could crack the market into a downtrend.
 
@@ -754,7 +754,7 @@ Psychologically, the public is usually still hopeful when a market goes into dis
 
 Trading real markets is not quite this simple. For one thing, markets in second-phase uptrends will frequently enter fairly extended sideways ranges in the middle of the trend. Should these be treated as further accumulation areas, in preparation for another markup, or is the trend over and these are distribution areas? There are subtle clues in market structure and price action, but it is not always possible to make an accurate judgment in real time. Looking back, or at the middle of a chart, the answer is obvious, but it will not be so obvious at the hard right edge. Even with the best analysis and trading plan, we will simply make the wrong decision sometimes, so any good trading plan will focus on risk management first.
 
-Markdown: The Bear Market
+### Markdown: The Bear Market
 
 The last stage is markdown, which, in many ways, is the inverse of the markup. Psychologically, if the market has been in a protracted distribution phase, the public will most likely have lost some interest. Some traders will be optimistic, and will plan to “get back in” whenever it moves, but, in general, the public focuses on the same things the major media do: hot markets that are moving. These traders will easily be able to justify buying new highs above the distribution area, as this is how another trend leg would begin. They also will be able to justify buying breakdowns below the distribution area, because the market would be cheaper (on sale?) at those levels. The level of interest will probably be relatively low because the public usually focuses on markets that move, but the general tone will likely be very positive. After all, everyone is now in agreement that the market is going higher, right?
 
@@ -762,7 +762,7 @@ Real downtrends begin out of this environment of optimism or complacency. Eventu
 
 Market structure and price action in a downtrend are not a perfect mirror image of the first stage, but the differences are subtle and difficult to quantify. One of the major pieces of received wisdom from old-school traders is that markets tend to go down much faster than they go up. There is some truth to this, as volatility reliably expands on declines in many markets, and there is also a subjective side to the analysis, as there is a distinctly different feel to rallies in a bear market compared to sell-offs in a bull market. Both structures are pullbacks in established trends, but there is a special kind of franticness and volatility that seems to be a unique attribute of bear markets. Bear market rallies tend to be sharp and vicious, whereas pullbacks in bull markets are usually much more orderly. There is a surprising degree of symmetry—most elements of uptrends and downtrends are mirror images of each other (reflected around the y-axis), but most traders also find that a very different skill set is required to trade each environment. This may explain why some traders avoid bear markets whereas others specialize in them.
 
-The Cycle in Action
+### The Cycle in Action
 
 The structure laid out here was originally conceived around the equity markets and on time frames ranging from months to years. It applies especially well there, but it also has relevance to other markets and shorter time frames. Commodity markets tend to follow a similar cycle, but the cycle in commodities is often driven by the production and consumption cycle. Commodities, in general, tend to be a little more cyclical and more prone to seasonal distortions, especially of volatility, than stock indexes are. Currency markets tend to be a little less cyclical and tend to trend better than most other asset classes over longer time frames. That said, there certainly are times when this cycle does apply to the currency markets—for instance, in extreme situations accompanied by emotional elation or stress.
 
@@ -788,7 +788,7 @@ And perhaps most importantly, remember that no trader is correct 100 percent of 
 
 
 
-THE FOUR TRADES
+## THE FOUR TRADES
 
 
 Wyckoff’s market cycle is a highly idealized view of market action, but it does lay the foundation for a simple categorization of technical trades into four categories. There are two trend trades: trend continuation and trend termination, and two support and resistance trades: holding and failing. Though this may seem like an arbitrary classification system, it is not. Every technical trade imaginable falls into one of these categories. Trades from certain categories are more appropriate at certain points in the market structure, so it is worthwhile to carefully consider your trades in this context.
@@ -807,7 +807,7 @@ How do these trades fail?
 
 
 
-Trend Continuation
+### Trend Continuation
 
 Trend continuation plays are not simply trend plays or with-trend plays. The name implies that we find a market with a trend, whether a nascent trend or an already well-established trend, and then we seek to put on plays in the direction of that trend. Perhaps the most common trend continuation play is to use the pullbacks in a trend to position for further trend legs. It is also possible to structure breakout trades that would be with-trend plays, and there is at least one other category of trend continuation plays—trying to get involved in the very early structure of a new trend. In the context of our simplified stage model, trend continuation trades are most appropriate in markup or markdown, but these early trend trades may be attempted where accumulation breaks into the uptrend or where distribution breaks down into the new downtrend. If you are trading in these areas of uncertainty, it is important to not be stubborn. An aborted breakout of accumulation into an uptrend may well be an upthrust, which is a sign of potential distribution. Listen to the message of the market and adjust accordingly.
 
@@ -815,7 +815,7 @@ Trend continuation plays tend to be high-probability plays because there is a ve
 
 There are several common failure patterns associated with these types of trades. First, there may simply not be enough with-trend pressure to push the market into another trend leg, so previous resistance holds (in the case of an uptrend) and the market rolls over into a trading range (or distribution). Traders trading simple pullbacks need to be aware that many pullbacks in strong trends are complex, two-legged consolidations (see Chapter 3), so a good trading plan will plan for that possibility. Dramatic failures of these trades are somewhat uncommon, but they do happen. Most failed trend continuation trades tend to be rather polite affairs, usually giving the trader a chance to get out for a small loss. However, there is always danger when everyone is leaning the same way in a market, and, especially in well-established trends, there are places where many market participants have piled into a very obvious trend continuation play. In these situations, especially in extremely overextended markets, reversals can be dramatic as everyone scrambles for the exit at the same time.
 
-Trend Termination
+### Trend Termination
 
 More than any other category, precise terminology is important here. If we were less careful, we might apply a label like “trend reversal” to most of the trades in this category, but this is counterproductive because it fails to precisely define the trader’s expectations. If you think you are trading trend reversal trades, then you expect that a winning trade should roll over into a trend in the opposite direction. This is a true trend reversal, and these spots offer exceptional reward/risk profiles and near-perfect trade location. How many traders would like to sell the high tick or buy the very low at a reversal? However, true trend reversals are rare, and it is much more common to sell somewhere near the high and to then see the market stop trending. Be clear on this: This is a win for a trend termination trade—the trend stopped. Anything else is a bonus, so it is important to adjust your expectations accordingly.
 
@@ -825,7 +825,7 @@ Trend termination plays are not usually high-probability plays, but the compensa
 
 Trend termination trades are countertrend (counter to the existing trend) trades, and trade management is an important issue. Most really dramatic trading losses, the kind that blow traders out of the water (and that don’t involve options) come from traders fading trends and adding to those positions as the trend continues to move against them. If this is one of the situations where the trend turns into a manic, parabolic blow-off, there is a real possibility for a career-ending loss on a single trade. For swing traders, there will sometimes be dramatic gaps against positions held countertrend overnight, so this needs to be considered in the risk management and position sizing scheme. More than any other category of trade, iron discipline is required to trade these with any degree of consistency.
 
-Support or Resistance Holding
+### Support or Resistance Holding
 
 There is some overlap between these categories, and it is possible to apply trades from these categories in more than one spot in the market structure. We might expect that most support/resistance trades will take place in accumulation or distribution areas while the market chops sideways, but a trader trading with-trend trades could initiate those trades by buying support in the trend. Are these trend continuation trades or support holding trades? The answer is both, so traders must build a well-thought-out classification system that reflects their approach to the market. Your trading patterns and rules are the tools through which you structure price action and market structure, and they must make sense to you. Take the time to define them clearly.
 
@@ -833,7 +833,7 @@ It is easy to find examples of well-defined trading ranges on historical charts 
 
 Because of these issues, support/resistance holding trades, as a group, tend to have the lowest reward/risk ratios. By definition, at support, there is an imbalance of buying pressure that creates the support, but the market is usually in relative equilibrium just above that support. Most traders will try to avoid trading in these equilibrium areas, so many support holding trades set up in suboptimal trading environments. It is worth mentioning that there is a special subset of support/resistance holding trades that actually are very high-probability trades: failed breakouts. Remember, when everyone is leaning the wrong way, the potential for dramatic moves increases greatly, and nowhere is that more true than in a failed breakout.
 
-Support or Resistance Breaking or Failing
+### Support or Resistance Breaking or Failing
 
 Support/resistance breaking trades are the classic breakout or breakout from channel trades and, ideally, would be located at the end of accumulation or distribution phases. In fact, these trades actually define the end of accumulation or distribution, as the support or resistance fails and the market breaks into a trend phase. Another place for support/resistance breaking trades is in trends, but many of these are lower time frame breakout entries into the trading time frame trending pattern. Many traders, especially daytraders, find themselves drawn to these patterns because of the many examples where they work dramatically well. Many trading books show example after example of dramatic breakouts, but there is one small problem with breakout trades—most breakouts fail.
 
@@ -845,7 +845,7 @@ Depending on the time frame and intended holding period for the trade, it may be
 
 
 
-SUMMARY
+## SUMMARY
 
 
 These four categories of trades provide an excellent framework for thinking about technical trades. This is a simple, valid, and consistent labeling scheme, and it is nearly impossible to find a technical trade that does not fit within these categories. Many trades may fit into more than one, especially when the complexities of multiple time frames are considered, but this does not compromise the utility of the system. This is not intended to be a rigid, artificial classification system, but rather a dynamic framework that can grow and evolve with your trading style and your understanding of market behavior.
@@ -856,17 +856,17 @@ Not to wax too philosophical, but there is another way to think about this cycle
 
 
 
-PART II
+# PART II
 
-Market Structure
-
-
+# Market Structure
 
 
 
-CHAPTER 3
 
-On Trends
+
+# CHAPTER 3
+
+# On Trends
 
 Don’t fight forces, use them.
 
@@ -878,7 +878,7 @@ Market movements can create a bewildering number of patterns and variations of p
 
 
 
-THE FUNDAMENTAL PATTERN
+## THE FUNDAMENTAL PATTERN
 
 
 What I am presenting here is not new; I owe a tremendous debt to the authors and traders who have come before me. No significant intellectual construct emerges ex nihilo—anything of value rests on a foundation built by someone else. In the case of trend structure, Tony Plummer (2010) has written about the basic trend pattern, which he calls the “price pulse,” with clarity and in-depth. This simple, fundamental trend pattern is found at the core of even elaborate methodologies, like Gann or Elliott, when they are stripped to bare essentials. This pattern, very simply, is how markets move, and it is a profoundly powerful concept. The fundamental pattern of market movement on all time frames is this: a movement in one direction, a countertrend retracement in the other direction, and another leg in the original direction. Visually, these movements are often labeled with letters, as in Figure 3.1.
@@ -893,7 +893,7 @@ The best option in most cases is to buy a little bit, wait so that you don’t m
 
 There must be a firm theoretical foundation for anything in the market; you should be able to clearly articulate why something should be the way it is. Market prices are the result of buyers and sellers negotiating for prices, nothing more and nothing less. We do not need to invoke some mystical force to create the patterns we see in the markets; they are simply the result of buyers and sellers finding prices in a competitive environment. This is also why the fundamental structures in the markets have not changed since antiquity. Some of the earliest written records we have are price records from Phoenician merchants, which paint a story of price movements very similar to those we see today, albeit on a much slower scale.
 
-Fractal Markets
+### Fractal Markets
 
 A fractal is a type of pattern in which the parts resemble the whole (see Mandelbrot and Hudson 2006). Markets are fractal in nature, meaning that essentially the same patterns appear on all time frames: Patterns on single-tick charts combine to form 1-minute bars. The patterns on the 1-minute bars are the same as those on the single-tick bars, and they combine to form the patterns on 5-minute bars. (The time frames are a convenient but unavoidably arbitrary structure.) This pattern building continues all the way to daily, weekly, monthly, and yearly patterns, which all contain essentially the same patterns.
 
@@ -909,18 +909,18 @@ This is not an abstract concept, but an important tool to understand market stru
 
 
 
-TREND STRUCTURE
+## TREND STRUCTURE
 
 
 We now turn to the structure of trends in a little more depth: how they start, how they unfold, and how they come to an end. The presence of a trend suggests an imbalance of buying and selling pressure; it is this imbalance that actually drives the price change of the trend, and the trend will eventually end when the market finds equilibrium at a new price level. It is extremely important to be able to read the trend structure and to know what patterns support a continued imbalance or what patterns indicate that the trend might be coming to an end.
 
-Using Indicators
+### Using Indicators
 
 This section will also use the indicators that I have found most useful in actual trading: modified Keltner channels set 2.25 multiples of the Average True Range (ATR) around a 20-period exponential moving average, and a modified moving average convergence/divergence (MACD). These tools are examined in detail in Chapter 7 and Appendix B, but the focus here will be on actually using them to delineate market structure in a discretionary context. If you prefer a different set of indicators, you will find that these same concepts can be adapted to a wide range of tools without loss of generality. For instance, most of the Keltner concepts can also apply to Bollinger bands or even to simple, static percentage bands around a moving average. Most momentum indicators (e.g., rate of change [ROC], Commodity Channel Index [CCI], standard MACD, or some applications of the stochastic oscillator) can be used more or less like the modified MACD.
 
 
 
-Impulse and Momentum
+### Impulse and Momentum
 
 The first leg (AB) of the basic structure is often called a momentum move or an impulse move. In an uptrend, this is a relatively sharp advance driven by buying pressure (demand) overcoming existing selling pressure (supply) and creating a lack of liquidity on one side of the market. After a market has been locked in an extended trading range with no clear momentum, the emergence of a sharp momentum move penetrating one side of the range is often a sign that there is a new imbalance of buying or selling pressure. Figure 3.3 shows an example of a new trend emerging in the 30-year Treasury bond futures. Notice a few things about this pattern: first, it is not subtle. Even someone with no chart-reading experience would recognize that the right side of the chart shows a break in the existing pattern. Next, notice that prices were able to penetrate through the upper channel, though the last bar of the chart is somewhat suggestive of a short-term climax. Last, the fast line of the MACD registered a new momentum high. (This idea will be explored in Chapter 7, but essentially, the MACD made a new high reading relative to its recent values.)
 
@@ -946,7 +946,7 @@ FIGURE 3.5 Sugar Futures, November 2010—Two Large Downward Closing Days Break 
 
 Remember, the normal pattern in an established trend is that each setup leg is a momentum move, and the subsequent extensions also function as momentum moves setting up the next trend leg. Economics 101 tells us that increased demand in a market will lift prices as the market tries to find a new market-clearing price; this description of trend movement is one of the mechanisms through which that adjustment happens. Eventually, higher prices will bring enough sellers into the market that a new, perhaps temporary, equilibrium is achieved. Astute technical traders can usually see clues to this process in the market tape. The most important patterns are: new momentum highs or lows, subsequent trend legs making similar new impulse moves, and the absence of strong countertrend momentum on pullbacks.
 
-Climaxes
+### Climaxes
 
 Buy pullbacks following an upward impulse move, or short bounces after strong selling impulse moves. That, in a nutshell, is a very effective plan for trading trends. Simple, right? Not so fast—there is a potential complication, and it is one of the most significant problems in technical analysis. It is true that there should be follow-through (range expansion) in the direction of previous impulse moves; however, extremely strong impulse moves are more indicative of climax or exhaustion. This is one of the common ways that trends end, so it is important to fully understand these patterns.
 
@@ -1000,7 +1000,7 @@ Vary in significance. Small exhaustions into previous support and resistance are
 
 
 
-Pullbacks
+### Pullbacks
 
 After a normal (nonclimactic) impulse move, the market will usually go into a pullback or retracement. A pullback is a countertrend movement (i.e., it is against the direction of the trend that set up the pullback) in a trend that usually leads to another price movement in the direction of the original trend. In other words, after an impulse move up, the pullback will be a downward movement against that initial impulse; pullbacks in downtrends are bounces against the preceding downward impulse move. Conceptually, the pullback is a natural consequence and reaction to the impulse move. Volume is typically lighter in pullbacks, which is to be expected since impulse moves are driven by active buying, but many of the traditional volume relationships of technical analysis are not as reliable as many people believe.
 
@@ -1020,7 +1020,7 @@ FIGURE 3.11 Simple and Complex Pullbacks
 
 It is important to understand these complex pullbacks for several reasons. First, they are common. Trend traders will make the bulk of their profits in trends that extend for several legs, and pullbacks in trends tend to alternate between simple and complex. (This rule of alternation, which describes this alternation between simple and complex pullbacks, is one of the useful rules from Elliott wave theory.) For instance, it is extremely unusual to find a trend that has five large trend legs interrupted by four simple pullbacks; far more common would be five large trend legs interrupted by two simple and two complex pullbacks. Traders cannot negotiate the market structure of extended trends successfully without a good understanding of complex pullbacks. Another reason to understand these patterns is that many traders will execute a plan that is some variation of entering into a pullback and exiting if the pullback continues to move against them. Complex pullbacks will stop these traders out of their positions as the pullback makes new countertrend extremes on the second leg. Any successful trend trading strategy has to account for the possibility of complex pullbacks. With this in mind, return to Figure 3.10 and examine the third pullback in the sequence, which is a good example of a complex pullback in a real market situation.
 
-Measured Move Objective
+### Measured Move Objective
 
 This combination of impulse/retracement/impulse pattern leads to a three-legged structure that should be considered the standard trend structure. A rough profit target for the follow-through leg, the trend leg following the pullback, is the so-called measured move objective (MMO), which assumes that the CD leg in Figure 3.12 will approximately equal the length of the AB leg.
 
@@ -1032,7 +1032,7 @@ Treat this relationship as a rough guideline; all proportions and ratios work in
 
 Another way to use a measured move objective is as a potential entry spot. A common area where this may occur is in a complex pullback, when it makes sense to look for the second leg of the pullback to terminate in the area of the measured move objective. Last, remember that this measured move objective, if used as a price target, provides a target for only a single swing. It is entirely possible to establish a position in a trend and hold it through multiple pullbacks and multiple trend leg extensions, in which case the measured move is valid only for each of the individual swings.
 
-Three Pushes
+### Three Pushes
 
 The parabolic expansion into climax pattern is a dramatic but rare pattern. There are a number of other more common and subtle patterns that can also indicate climax. One of the most important of these is three pushes, which appears on a price chart as three drives to a new high or low after a somewhat extended trend. The pushes are usually symmetrical in time (meaning that they are more or less evenly spaced horizontally on the chart) and in price. In the best examples, the third push breaks a trend line drawn across pushes one and two, indicating a short-term climax on a lower time frame. The three pushes that make up this pattern are also usually spaced more closely than most of the other highs in the trend, indicating that the pace of trading activity (not necessarily volume) has accelerated. For instance, if a market has been making new highs on the trend every 15 bars, the three pushes pattern might occur with highs spaced five bars apart. This is only a guideline, but the more frequent drives to new highs suggest a certain franticness on the part of buyers. Figure 3.13 shows a classic example of this pattern, which ended a trend in Wheat futures in early 2011.
 
@@ -1050,12 +1050,12 @@ FIGURE 3.14 Schematic of the Three Pushes Pattern Showing Underlying Structure
 
 
 
-A DEEPER LOOK AT PULLBACKS: THE QUINTESSENTIAL TREND TRADING PATTERN
+## A DEEPER LOOK AT PULLBACKS: THE QUINTESSENTIAL TREND TRADING PATTERN
 
 
 Imagine that you wanted to trade a trend in the most efficient manner possible. If you knew the future—when and where the trend would begin and end—it would be simple: buy at the beginning of the uptrend and sell at the end; short at the beginning of a downtrend and cover at the end. Since working time machines are hard to come by, we have to find another plan. The next best solution might be to use the pullbacks to position for the next trend leg. In other words, buy into the pullbacks in uptrends and short into the pullbacks (bounces) in downtrends. Even if we are buying in an uptrend, we would still prefer to buy at relatively low prices; using the pullbacks allows us to do this. Furthermore, it is possible to monitor some of the characteristics of the developing pullbacks to get some clues as to where the trend might end. Chapter 6 demonstrates several specific patterns and plans for trading pullbacks, but let’s begin here by considering some of the important points that all pullbacks, and trades around them, have in common.
 
-Characteristics of Winning Pullbacks
+### Characteristics of Winning Pullbacks
 
 Pullbacks are contratrend movements, meaning that, in an uptrend, the pullbacks are actually lower time frame downtrends and, in the case of pullbacks in downtrends, the lower time frame will be in an uptrend. One important principle of market behavior is that trends that run counter to the higher time frame trend tend to be weaker and tend to abort suddenly as the higher time frame trend reasserts itself. This is useful from two perspectives: First, trading pullbacks makes sense because they offer excellent trade locations (i.e., buying relatively cheap in an uptrend or selling relatively high in a downtrend) with a good probability of success. Second, understanding this principle is important because it can filter out low-probability trades—if you enter a pullback on your trading time frame that is actually contratrend to the higher time frame market structure, this trade will have a much lower probability of success.
 
@@ -1065,7 +1065,7 @@ FIGURE 3.15 Conflicting Information from the Daily and Weekly Chart of the U.S. 
 
 
 
-Follows Good Momentum or Impulse
+### Follows Good Momentum or Impulse
 
 When trading pullbacks in a trend, it is helpful to make sure the market is actually trending. One of the best ways to separate out the suboptimal trading environments is to trade only pullbacks that are preceded by significant momentum in the direction of the trend. There are many ways to quantify this, but simple, visual chart analysis can be very useful. The highest-probability trades will follow large moves relative to previous swings on the chart. Again, we are into the territory of subjective analysis, but this is a legitimate skill that can be developed with experience and exposure to many patterns. The question the trader needs to ask is: “Am I seeing a move here that should have continuation?” The most important thing to keep in mind is that we are looking for sharp impulse moves and for significant momentum moves that indicate there is an imbalance in the market that should resolve with another move in the same direction. It is also possible to quantify this condition with the MACD or another momentum indicator—look for the indicator to register a significant new high or low (relative to its recent history), and trade only pullbacks following that condition.
 
@@ -1075,17 +1075,17 @@ FIGURE 3.16 Trading Momentum in GS, December 2009
 
 
 
-Does Not Follow a Momentum Divergence
+### Does Not Follow a Momentum Divergence
 
 A corollary to the preceding is that the best pullback trades will not come after a momentum divergence. There are both objective and subjective elements to this evaluation, but the simple MACD analysis in the preceding example is a good place to start. If we precisely define the ways in which we will measure momentum, it is possible to define some clear guidelines for trades to be taken and avoided based on the existing momentum conditions. Length of swing analysis provides some additional insight into the momentum behind each leg of the trend: Larger swings (vertical distance on chart) have stronger momentum than smaller swings, but the rate of the trend (price/time, visible as slope on the chart) is also important.
 
 It is also possible that managing existing positions may require a slightly different mind-set than initiating new positions. For instance, a strong enough divergence could warn you not to increase risk or not to initiate new positions into the next pullback, but you might still be justified in holding a partial position that was initiated earlier at better prices. This is the kind of question that must be decided in advance, and your trading plan should encompass all the possibilities for managing existing positions as well as initiating new exposures.
 
-Location in Trend
+### Location in Trend
 
 It is an axiom in technical analysis that the first entry in a trend is the best entry, but this is an example of the kind of hindsight analysis that must be avoided. All this really says is that if a market goes up, the best place to get in was at the beginning of the move—not a particularly helpful piece of knowledge. However, this concept is useful from a slightly different perspective; with each successive trend leg we should be slightly more suspicious of the move. It is hard to justify assuming the same kind of risk on the fourth or fifth legs as on the first or second, but it is also important to remember that markets do have outsized trend moves, and some trends go on far longer than anyone would have thought possible. It is rare, but a market can have 10 trend legs in the same direction without a significant pullback; most of these later legs will be generating momentum divergences and then rolling over those divergences. This is also a good reminder why you do not want to add to losing countertrend trades. Even if an extended trend move is a one in a thousand event, if it happens the one time you are being stubborn and adding to a trade as it grinds against you, that one time can put you out of business. Competent traders manage risks so that no single trade can ever take them out of the game.
 
-Retracement Percentage
+### Retracement Percentage
 
 There is valuable information in the character and size of the pullbacks in a trend; a strong trend will tend to generate smaller pullbacks, relative to the with-trend legs, than a weaker trend. While we can measure and quantify these pullbacks in various ways, there is enough noise in the market that exact measurements and ratios are not particularly useful. This is another tool that that may be best synthesized into a quasi-discretionary framework.
 
@@ -1097,7 +1097,7 @@ FIGURE 3.17 A Strong Trend in BIDU Holds the Stock Tight against the Upper Keltn
 
 
 
-Symmetry and Lower Time Frame Considerations
+### Symmetry and Lower Time Frame Considerations
 
 A pullback is usually a period of lower volatility and action in which the market pauses and consolidates the strength (or weakness, in the case of a downtrend) of the trend legs. This is one of the characteristics of good pullbacks: they are generally periods of lower activity compared to trend legs. One of the most reliable tools for defining lower activity is to monitor price action on lower time frames, where we would expect to see less conviction in the direction of the trend on that time frame. Remember, the lower time frame trend is countertrend to the prevailing trend on the trading time frame, so we should be on guard for that lower time frame trend to abort in the direction of the trading time frame’s trend. Lower time frame ranges should be smaller in most pullbacks, and there should not be as much conviction in taking liquidity from the book. In addition, the best pullbacks are often more or less symmetrical on the trading time frame, though it is not unusual to see the occasional spike outside the confines of the pattern. These spikes can, in fact, offer attractive entry points for trades, but the majority of the action should be confined within clearly defined boundaries.
 
@@ -1111,7 +1111,7 @@ FIGURE 3.19 More Consistent Pullbacks in X, Mid-2009
 
 
 
-Common Characteristics of Failed Pullbacks
+### Common Characteristics of Failed Pullbacks
 
 As important as it is to understand the patterns associated with successful pullbacks, it is probably equally important to understand the patterns that hint at impending failure. Understanding how patterns fail lets traders look for warning signs to exit losing trades, sometimes taking a smaller than expected loss. In addition, some very good trades are driven by traders trapped in failed patterns. This is especially common with failed breakouts, which will be covered in the next chapter, but some traders look for trades to set up around failed pullbacks as well. In general, pullback trades fail in one of three ways:
 
@@ -1123,7 +1123,7 @@ As important as it is to understand the patterns associated with successful pull
 
 
 
-Flat Pullback
+### Flat Pullback
 
 One of the most common pullback failure patterns occurs when the market begins what looks like a good pullback but then there is simply no move out of that pullback. Instead, the market goes into a flat range, indicating that buyers and sellers are in relative balance. Trading in this new range is usually a bad idea since price action will be random and not driven by any real order flow. Also, breakouts from this new range are treacherous, with the potential for fake-outs in either direction. In most cases, the best course of action is to recognize the pattern once it has developed, book a small loss or gain on the trade, and move on to other opportunities. Figure 3.20 shows an example of a pullback in AAPL that failed to continue the trend and instead transitioned into a sideways range. Though it is difficult to set a precise point at which a trader should have recognized that the pullback was not working as expected, it should have been obvious no later than four or five bars after the point marked A on the chart. In this case, the pullback eventually failed dramatically as sharp downside momentum came into the market, but it could just as easily have resolved to the upside. The point is that this pattern indicates that whatever edge existed in the pullback is now gone.
 
@@ -1131,7 +1131,7 @@ FIGURE 3.20 A Pullback in APPL That Failed by Transitioning to a Flat Trading Ra
 
 
 
-Sharp Countertrend Momentum as Pullback Is Violated
+### Sharp Countertrend Momentum as Pullback Is Violated
 
 The previous example showed a case where a pullback failed via sharp contratrend momentum after first going into a sideways range. However, the market is not always so polite. Some of the most dangerous pullback failures, at least in terms of the possibility of creating large losses, occur when the pullback simply fails sharply by breaking to the “wrong side.” Pullbacks that were anticipated to have been continuation patterns in uptrends may fail through sharp breakdowns, and vice versa. These are the patterns that make risk management based solely on pattern geometry difficult—how far away do you put the stop? No matter where you might think it should go, there will, in some subset of these patterns, be spikes to that level and beyond. Figure 3.21 shows an example of a continuation pattern in the 30-year Treasury bond futures that seemed to have everything going for it: the market had consolidated on support for two months, the breakdown of that support was fairly clean and had good momentum, and the market started to consolidate under that previous support. This is an excellent pattern on which to base a short trade, but in this case it was not to be. At the point marked A, buyers swept the market up through the top of the pullback, back above support, and it did not look back.
 
@@ -1147,7 +1147,7 @@ FIGURE 3.22 A Failure to Break Down Out of a Pullback in the S&P Futures Sets Up
 
 
 
-Failure around Previous Pivot
+### Failure around Previous Pivot
 
 When trading pullbacks, it is unrealistic to assume that every pullback will result in a new trend leg equal to the setup leg or that they will give rise to trends that continue for many more legs. This, of course, is the best-case outcome, but it is far more common to find pullback trades that give opportunities for smaller profits. More consistent results will come from taking at least partial profits at a more conservative profit target; the pivot high or low (in an uptrend or a downtrend, respectively) of the setup leg is an ideal target and should be considered the first, most conservative profit target for any pullback trade. Figure 3.23 shows this pullback target schematically for both uptrends and downtrends.
 
@@ -1169,12 +1169,12 @@ There are several issues to consider here. First, of the three possibilities (fa
 
 
 
-TREND ANALYSIS
+## TREND ANALYSIS
 
 
 There are many tools in technical analysis for identifying and analyzing trends. The choice of which to use will depend on many factors: your personality, your trading style, what kind of trend you want to identify, where (in terms of the age of the trend) you want to identify it, and how you want to trade it. A trader looking for mature trends in markets that trend well might simply look for charts that “begin at one corner of the chart and travel to the other.” This might seem to be an overly simplistic approach to finding trending markets, but it works for certain kinds of traders. Other traders might look for subtle patterns and momentum shifts that suggest a trend might be turning, with the idea that they will aggressively pursue entries at those spots so that they have bought the low or sold the high if a new trend develops. All of these approaches are valid, but let’s begin with a broad, structural approach to trend identification. This is pure market structure approach based largely on the work of the early authors who laid out the principles of what became known as the Dow Theory.
 
-Dow Theory Trend Patterns
+### Dow Theory Trend Patterns
 
 An uptrend is a pattern of successively higher pivot highs (HHs) and higher pivot lows (HLs) (see Figure 3.25). Both are important. Most people readily accept a definition of an uptrend that requires higher highs; this is intuitive, but it is easy to overlook the importance of accompanying higher lows; if a market is only making higher highs, but is not also clearly holding higher lows, the buyers are not solidly in control of that market. Conversely, a downtrend is a series of both lower lows (LLs) and lower highs (LHs) (see Figure 3.26). This is perhaps the most elementary definition of trend possible on any time frame.
 
@@ -1202,7 +1202,7 @@ FIGURE 3.28 Dow Theory Trend Change #2
 
 It goes without saying that these patterns are simply inverted for a downtrend changing to an uptrend. In the first case, a downtrend fails to make a lower low, and then the trend change is confirmed when the previous pivot high is violated. In the second case, a sharp rally takes out the previous pivot high, the subsequent decline falls short of new lows, and then the next rally makes a new high.
 
-An Important Complication: The Complex Consolidation
+### An Important Complication: The Complex Consolidation
 
 Figure 3.29 shows an uptrending market with a complex consolidation, which is a powerful continuation pattern. Note that a naive application of the previous change-of-trend rules would have flagged a downtrend at precisely the point you should have been buying this market. This complex consolidation pattern is very common, and it often leads to exceptional trade opportunities in the direction of the existing trend. If you were to use this structure in a vacuum, you would frequently find yourself positioning short at precisely the point you should be buying in these complex consolidations.
 
@@ -1212,11 +1212,11 @@ FIGURE 3.29 A Complex Consolidation Will Flag a Trend Change According to a Stri
 
 This does not compromise the validity of this simple labeling system, which does what it is designed to do very well: it identifies breaks in the pattern of trends, and marks those areas for further attention. Also, in any trading tool there is always a trade-off between being early with many false alerts and being late while waiting for confirmation. Next, we examine a few other methods of identifying trends, all of which lag this swing analysis and all of which also have their own false signals.
 
-Indicators
+### Indicators
 
 It is possible to use information from indicators to quantify the direction, strength, and potential of trends. These tools may be applied in a strict, quantitative manner, either singly or in combination with other indicators, or they may be used as discretionary inputs into a more extensive process. In the case of trends, indicators and other tools can be useful because they are sometimes able to filter out noise and to reveal the deeper market structure. An experienced trader can do this based on the raw patterns of price, but newer traders will often find that an indicator simplifies their task considerably. In addition, experienced traders may still want to use some combination of these tools to aid in scanning many markets quickly for specific trade conditions.
 
-Slope of a Single Moving Average
+### Slope of a Single Moving Average
 
 Moving average models are used in econometrics to analyze and forecast trends. One of the simplest trend indicators used by traders is the slope of a single moving average. The length of the moving average will determine the sensitivity of the average, or, more accurately, the time frame on which it will evaluate trends. For instance, a 10-period moving average will have a lot to say about the trend over the past 10 bars, but is not likely to be relevant to the trend over the past 100 bars.
 
@@ -1226,17 +1226,17 @@ FIGURE 3.30 Trend Changes Flagged by the Slope of a 50-Period Moving Average
 
 
 
-Other Indicators
+### Other Indicators
 
 There are many trend indicators derived from crossovers of one or more moving averages, and a number of more complex tools are also in common use. The Directional Movement Index (DMI) and the Average Directional Index (ADX) were created by Welles Wilder (1978) to quantify trend direction and strength. Linda Raschke and Laurence Conners (1996) advocate usage of the ADX without the DMI to define the strength of the trend while gauging trend direction from other indicators, and they introduce a number of other refinements to the use of this tool. Other traders will use tools such as the MACD histogram or other momentum indicators to provide indications and warnings of trend change. Last, a number of indicators exist that use more sophisticated math, such as linear regression lines, or that apply digital signal processing tools to price data in order to expose the underlying cycles.
 
 Each of these approaches has its merits, but they also bring dangers. Traders can be seduced by the siren song of finding the perfect indicator, and can spend years searching for the best settings or the best combinations of tools. Many traders will find better results by learning to read price action and market structure, using simple tools to constrain their actions to the realities of the marketplace, and always remembering that our tools are only tools. Go back through the last several charts, and notice how the trend changes given by each of the following tools usually lags the trend changes that you would have identified by simply reading the emerging price structure in each chart. There is no right or wrong here, but there is also no holy grail.
 
-Understanding Trend Integrity
+### Understanding Trend Integrity
 
 For most traders, the question of trend integrity is paramount. How strong is the trend? Are there any warning signs that suggest it could turn? How far might it go? What should our expectations be when it does turn? How can we monitor the strength of the trend as it waxes and wanes, and gain some more insight into the relative buying and selling pressure behind the trend? These are all important questions, and they all can be addressed by some very simple analyses. There are three primary points to consider: length of swings, rate of trend, and the character of each trend leg.
 
-Length of Swing Analysis
+### Length of Swing Analysis
 
 Simple math tells us that in an uptrend the upswings must be longer than the downswings, and the reverse is true in downtrends. If a market is gaining more on the upswings than it is losing on the pullbacks, the net effect will be to move to a higher price level—this is a very elementary definition of a trend and is also consistent with the Dow Theory trend construct. One very simple way we can look at trends is to draw lines connecting the pivot lows to the pivot highs in each of the major swings, and then simply compare the lengths of those lines to previous swings in terms of both vertical distance (price) and horizontal distance (time). Some examples will help to clarify. In a strong uptrend, the upswings are larger than the downswings, usually both in price and in time (see Figure 3.31).
 
@@ -1260,11 +1260,11 @@ Of course, it is not always so simple. Though we might expect a shortable bounce
 
 These examples have dealt exclusively with uptrends, but they are simply reflected and reversed for downtrends. These patterns can form a foundation for a robust understanding of trend analysis. Do not be put off by the simplicity of this analysis. In the right context, simple tools work very well.
 
-Using Trend Lines to Define Rate of Trend
+### Using Trend Lines to Define Rate of Trend
 
 Trend lines are one of the most used and abused tools in modern technical analysis. One good working definition of a trend line is a line drawn between two points on a chart, but then there are the internal trend lines, which can be drawn anywhere through the middle of price bars. There are many possible variations of these lines, but the one rule is that however the trader chooses to define trend lines, they should be used and applied consistently.
 
-The Standard Trend Line
+### The Standard Trend Line
 
 Standard uptrend lines are drawn between higher lows in an uptrend; the standard downtrend line is a line drawn between lower highs in a downtrend. The uptrend line shows where buyers have stepped in on the declines with additional demand and have bid the market higher, which is why Wyckoff called this line the demand line. In a downtrend, the downtrend line, or the supply line, shows where additional sellers have come into the market to arrest the bounces. If you are drawing standard trend lines, be certain of these points:
 
@@ -1300,7 +1300,7 @@ E raises a critical point about trend lines: They are lines drawn between succes
 
 In general, trend lines are tools to define the relationship between swings, and are a complement to the simple length of swing analysis. As such, one of the requirements for drawing trend lines is that there must actually be swings in the market. We see many cases where markets are flat, and it is possible to draw trend lines that touch the tops or bottoms of many consecutive price bars. With one important exception later in this chapter, these types of trend lines do not tend to be very significant. They are penetrated easily by the smallest motions in the market, and there is no reliable price action after the penetration. Avoid drawing these trend lines in flat markets with no definable swings.
 
-The Parallel Trend Line
+### The Parallel Trend Line
 
 This useful tool is built in three steps:
 
@@ -1346,7 +1346,7 @@ FIGURE 3.39 The Break of the Trend Line under the Pullback Was the Catalyst for 
 
 It is always important to ask why a pattern should work. In this case, there is a good explanation. The little spike beyond the short-term trend line is a buying or selling climax on lower time frames, so it is a natural exhaustion point for the countertrend move. Furthermore, there will be traders who exit their positions when those trend lines are broken, and they will be forced to chase the market to get back in. Remember that trapped traders drive some of the best trades, and that traders can be as effectively trapped out of positions as in. The key to the success of this pattern is that the market should not spend much time outside the trend line. (The definition of “much time” depends on the time frame—if weekly bars, probably not more than two days. If daily bars, then probably not more than a few hours. But on a 1-minute chart, we would want to see prices back above the trend line in less than 30 seconds.)
 
-Rate of Trend
+### Rate of Trend
 
 Markets rarely trend at one simple, consistent rate. It is very common to see a trend line broken and for the original trend to hold, albeit at a more shallow slope. This is one reason why naively trading on breaks of trend lines can be frustrating; these breaks are often simply moves into another degree, level, or rate of trend. Figure 3.40 shows trend lines redrawn to define the new rate of trend. This often has to be done many times in extended trends, leaving a characteristic fan of trend lines.
 
@@ -1360,7 +1360,7 @@ FIGURE 3.41 Steepening Trend Lines Are Needed to Define the Accelerating Trend i
 
 
 
-Character of Trend Legs
+### Character of Trend Legs
 
 One important question for discretionary traders to consider is how to weigh objective and subjective elements in technical analysis. Some things are simple and clear, which is one reason that many traders focus on indicators: Price is above the moving average, or it is not. The MACD histogram is higher than it was yesterday, or it is not. In each of these cases, there could not be much room for debate. However, when we start talking about things like character of moves or judging the conviction behind such moves, we are on shakier ground. Two analysts could look at the same chart and the same set of data, and come to different conclusions, and the same analyst might even make a different call looking at the same data on a different day. To some critics, this invalidates the discipline of technical analysis, or forces them to focus on only the objective elements. This is a mistake, because some of the most powerful tools of technical analysis are at least partially subjective. The question should be: How can we build, refine, and verify the validity of our subjective analyses?
 
@@ -1386,7 +1386,7 @@ Volume and trading activity matter. How easily does the market go up? Are there 
 
 
 
-SUMMARY
+## SUMMARY
 
 
 Many traders focus their trading activity exclusively on trending environments; there is certainly some justification for this because many outstanding trades come in trending environments. Market structure in trends is often driven by a strong imbalance of buying and selling pressure, it is relatively easy to define risk points for trades, and some of the cleanest, easiest trades come from trends. However, markets do not always trend. We do not always know when markets are trending, how long the trend will last, or what potential our trend trades may have. A complete understanding of market structure also includes a good grasp of the trading ranges, and the common patterns by which markets transition between the two.
@@ -1395,9 +1395,9 @@ Many traders focus their trading activity exclusively on trending environments; 
 
 
 
-CHAPTER 4
+# CHAPTER 4
 
-On Trading Ranges
+# On Trading Ranges
 
 The heavy is the root of the light. The unmoved is the source of all movement.
 
@@ -1409,18 +1409,18 @@ Price action in trends is often not that difficult to read, as there are a numbe
 
 
 
-SUPPORT AND RESISTANCE
+## SUPPORT AND RESISTANCE
 
 
 In their venerable bible of technical analysis, Edwards and Magee (1948; 4th ed., 1964) define support as “the price level at which a sufficient amount of demand is forthcoming to stop, and possibly turn higher for a time, a downtrend”; they give the inverse definition for resistance. The idea is that, as price declines, lower prices will naturally find more willing buyers. At some point, price declines far enough that buyers are willing to soak up all the sell orders in the market, and the market will stop going down. This theoretical concept is sound, but there is another important point to consider: real markets have so many competing influences and so much noise that prices frequently stop at random levels. That, coupled with our innate tendency to find patterns in random data, can cause support and resistance areas to appear on charts for no significant reason.
 
-Potential Support/Resistance
+### Potential Support/Resistance
 
 To start, consider an important refinement to the concept of support and resistance. This may seem like a subtle and insignificant point, but it is important. Anytime you think, speak, or write about a support area, attach the word potential to that definition. Prices are not coming down to a support area; they are coming down to a potential support area. Too many times, traders think that these areas are magic lines on the chart, and that price will bounce there. This may be as much a function of language as anything else, but this change in thinking will remind you that the best we can say about a support area is that it is an area where price may have a higher probability of pausing. It is easy to point to these areas in the middle of charts and to say how well they worked, but dealing with decision making under the uncertainty of the hard right edge is quite a different matter. Be flexible and open to the message of developing price action; always attach the qualifier potential when considering any support or resistance level.
 
 In addition, support and resistance should properly be thought of as zones or areas rather than exact lines. If you were drawing them on paper charts, just like trend lines, a crayon might be the appropriate tool, not a drafting pen. It is unrealistic to expect prices to come to a potential resistance level and to stop precisely at the level. It is far more likely to see prices stop at some point in front of the level, or for the level to be violated. If the level is significant and closely watched by many market participants, it is not uncommon to see large spikes through the level, followed quickly by renewed selling at the resistance level. Consider this action in the context of the classic Wyckoff springs and upthrusts discussed earlier; traders need to consider this point in their process of risk and trade management.
 
-Broken Support Becomes Resistance
+### Broken Support Becomes Resistance
 
 One of the classic rules of support and resistance is that support, once violated, becomes resistance. Conversely, resistance, once violated, becomes support. (You already should be thinking, “Wait a minute—support, once violated, becomes potential resistance.”) The reason given for this is that traders made a stand at a previous resistance level by attempting to sell enough to hold down prices. They failed when price traded through that resistance, and those traders incurred losses on their short positions that were entered at the level. If price returns to the same level after trading higher, they will be at breakeven on their shorts and will cover them (buy them back) in an attempt to reduce further losses, or so the theory goes. Their previous selling efforts at a level now turn into buying pressure at the same level, which may be able to at least temporarily halt a rally. Schematically, this pattern looks something like Figure 4.1; after resistance breaks (A), we can anticipate possible support when price trades back to the level that was formerly resistance.
 
@@ -1428,7 +1428,7 @@ FIGURE 4.1 Resistance Becomes Support
 
 
 
-The Dark Secret of Support and Resistance
+### The Dark Secret of Support and Resistance
 
 We can find many examples of this principle in real market action. Consider the following examples where a support level, once violated, becomes resistance and vice versa, on intraday charts of Baidu, Inc. (Nasdaq: BIDU), a fairly volatile and active stock at the time. Notice how well these levels are defined, and how well they hold on the retests. Figure 4.2 shows a classic example where a resistance level held at A, was broken at B, and then held cleanly as support on a retest at C.
 
@@ -1450,7 +1450,7 @@ FIGURE 4.4 Clear Resistance Is Tested Multiple Times, Breaks (A), and Then Holds
 
 These are textbook examples of price action around support and resistance levels, but there is one small problem: the levels in these examples are random price levels! These are not actual support and resistance levels; they were drawn by hiding the price bars and randomly drawing lines on the chart without regard to prices or market structure. (This was done on a live video available at http://adamhgrimes.com/blog/2011/12/04/randomsrlevels/) You can, and should, reproduce this experiment yourself. This is an experiential process—you must actually do this yourself, ideally several times. You may be very surprised to see that many of the standard patterns around support and resistance occur around these random levels in just the same way. Almost any random line drawn in the market will function as believable support or resistance.
 
-Create Your Own Support and Resistance Levels
+### Create Your Own Support and Resistance Levels
 
 1. Take a price chart of any market and hide the bars. Depending on your charting package, there are many ways to do this, but the easiest is probably to set the color of the bars the same as the background of the chart.
 
@@ -1468,11 +1468,11 @@ Create Your Own Support and Resistance Levels
 
 In almost all cases, when you ask traders how they know that the levels they are using are actually valid, the answer is something like, “Well, look at how it works. Can’t you just see that these are good levels from the way the market trades around them?” The answer is, “No, you can’t.” Your eye will be fooled by the presence of a line on the chart, and you cannot trust your subjective evaluation of levels. Remember, if something is random, we cannot use it to make money; so the question you really need to ask yourself is: how do you know the levels you are using are any better than random levels? This is a question of profound importance that few traders consider deeply.
 
-Support and Resistance in Action
+### Support and Resistance in Action
 
 Leaving aside for now this critical concern about the validity of levels, let’s consider some practical issues of trading support and resistance. In most cases, the most significant support and resistance levels, the ones that are more likely to have an actual impact on prices, are levels that are very obvious on a chart. When these levels do work in a clearly nonrandom fashion, it is usually because many market participants are watching them, and they are obvious to everyone. Visible pivots (especially on higher time frames), levels that have been tested several times, extremes of large spikes, and the highs and lows of the previous day are examples of areas that may attract unusual attention and interest from market participants.
 
-Expected Value around Support and Resistance
+### Expected Value around Support and Resistance
 
 Figure 4.5 illustrates a common fallacy about trading around support and resistance. Imagine you are contemplating buying the market at the point marked “??” and you broadly reason that there are only two possible price paths. If price goes down a small amount, the support level will be violated, so you can justify a very tight stop. On the other hand, there seems to be virtually unlimited upside potential. Many traders make the mistake of thinking that they can buy very close to support with tight stops because the potential reward is much greater. They reason that if the reward is 10 times larger than their risk, they can be wrong many times and still make money.
 
@@ -1484,7 +1484,7 @@ To see the problem with this plan, assume for a moment that the market in Figure
 
 So there is no escaping this truth—if you are buying in front of support or shorting in front of resistance, you must have an edge beyond just having a much larger profit target than stop loss. You must have a reason for expecting nonrandom price action off the level.
 
-Clean or Sloppy Tests
+### Clean or Sloppy Tests
 
 Support and resistance often do not hold perfectly clean tests. Allowing for these sloppy tests may sometimes lure us into seeing levels where none actually exist, but they actually are a reality of market action. There is no perfect solution here, but one thing to consider is the past history of price action around a level. If it has been violated many times with sloppy tests, it is reasonable to assume that future tests will also be sloppy. Figure 4.6 shows examples of several sloppy support tests in Netflix, Inc. (Nasdaq: NFLX) on a daily chart. Just by looking at the chart, you can see this stock has not held clean levels in the past, so it would be unrealistic to expect it to start doing so in the future.
 
@@ -1498,7 +1498,7 @@ FIGURE 4.7 Clean Support and Resistance in FCX
 
 
 
-Stop Placement for Support and Resistance
+### Stop Placement for Support and Resistance
 
 In considering stop placement, there is a trade-off between close stops that allow tight risk points with lower probability and wider stops that result in larger, infrequent losses. At first glance, it would seem like further stops are always preferable since they give the market more room to fluctuate and a higher probability of the trade being profitable, but there is another factor to consider: many traders will size positions based on the risk in the trade. (See Chapters 8 and 9.) Tighter stops allow larger position sizes and potentially better reward/risk ratios, so there is good reason to use stops that are as tight as is reasonably possible. The right answer depends on a combination of your style and personality, and the reality of the specific market you are trading.
 
@@ -1516,7 +1516,7 @@ The stop marked A, actually inside the support level, seems to make little sense
 
 The most important thing here is that you must have a stop at the time the trade is initiated. Stop placement can be so complicated that it may seem like you should just buy and get out when the market really drops below the level without having a clearly defined plan. The problem is that sometimes the market drops below the level and it is the beginning of an extended trend—it drops and never looks back. Being caught in a single trade like this can do significant damage to your account; your first job is to manage the risk of any trade, and to limit the damage from losing trades.
 
-Special Dangers of Clean Support/Resistance
+### Special Dangers of Clean Support/Resistance
 
 Levels that have shown multiple clean tests are potentially dangerous because many traders may be lulled into establishing very large positions with stops just on the other side of the level. When these levels are violated, the triggering of these stops can lead to extreme slippage beyond the level, sometimes resulting in a loss that is several times your intended risk. Couple this with the possibility that you may be holding a very large position due to the anticipated small risk, and this is a recipe for disaster. If trading against a clean level, keep the following points in mind:
 
@@ -1532,7 +1532,7 @@ Even with these complications, it is possible to trade against these levels if y
 
 
 
-Classic Accumulation/Distribution
+### Classic Accumulation/Distribution
 
 Some of the most important information we can get within trading ranges comes from the presence of price structures that suggest large interests are accumulating or distributing the stock. It is also worth mentioning that analysts and traders have considered the volume and changes in volume to be extremely important around these areas, but I have been unable to substantiate those claims in my own work. I realize that this will strike many technical traders as heresy, and there are many obvious examples of patterns with strong volume confirmation or support. (This is not the same as saying that volume is unimportant. I have not found volume to be important and have found my trading signals to be as reliable as those generated by traders who focus on volume, but there may well be aspects of volume analysis that I am missing.) However, closer inspection of a large number of chart patterns will find that volume helps as much as it hurts, that good signals occur as often with or without volume confirmation, and, in the end, it is simply another degree of freedom to deal with. Simplify, simplify, simplify.
 
@@ -1546,7 +1546,7 @@ The key to both of these patterns is that they are quick probes beyond support a
 
 There are always two sides to every trade, and it is a good mental exercise to cultivate the practice of trying to see price action from as many different perspectives as possible. Imagine that you are a trader shorting the market into the same level where the previous buyer was willing to buy. You are looking for weakness and further extension below the level, so what do you do in the same scenario? Once price drops below the level and now is back above, you realize that the breakdown has failed. Rather than hold a failed trade, most traders would elect to buy back the short. Your covering is buying pressure; it makes no difference whether traders are buying to establish positions or to cover shorts. Buying is buying, and, all other things being equal, it will push prices higher.
 
-Price Action around Support/Resistance
+### Price Action around Support/Resistance
 
 One of the reasons for attaching the qualifier potential to support and resistance is to remind us that these levels do not always hold. When traders are first introduced to these concepts, they expect that support and resistance areas will be lines that will contain price movements on charts and that trades can be easily set up on these levels. This is the most basic entry-level knowledge, and the problem with it is that it is not true. It is much more difficult to identify true levels than many traders think (i.e., they are much more rare than much of the trading literature suggests), and, in actual practice, these levels break just about as often as they hold. For instance, one definition of a trend is that it is a type of price movement or price action that breaks support or resistance—the repeated failure of support or resistance is what actually drives trends. When resistance eventually is able to hold against an uptrend, the trend will pause and the market will enter consolidation. Fortunately, there are some characteristic patterns associated with levels holding or breaking that can inform our analysis around these levels. Time spent studying these patterns and considering the variations that can occur in all time frames is time well spent. A good understanding of how levels hold or break will do much to enhance your ability to read the market.
 
@@ -1558,7 +1558,7 @@ FIGURE 4.10 Price Rejection in the AUDJPY
 
 This AUDJPY level illustrates another important point about support and resistance. In general, most traders find that the difficult trades to execute are often the best trades. It is very easy to buy a market as it grinds down into a support level, but it would have been much harder to buy the AUDJPY near that extreme support level. The best tests of support and resistance usually combine an objective, clear level with some form of overextension. In other words, a large price spike down to support is likely to set up a better bounce from that level than would a slow trend down into support. In fact, a market trending down into support is not showing price rejection, and this type of pressure often presages a significant break of support. The quick spike test, or a test of an oversold market coming into support, requires real execution skills, as prices will be moving quickly, spreads will be wide, and there may be an extreme lack of liquidity in the book. In addition, there is the chance of a large loss if prices continue to drop or drop even faster. But skilled traders find that they are compensated for these risks by quick profits and a good expected value over a large set of these trades. If you are uncomfortable buying spikes to support or shorting spikes to resistance, consider adding these to your trading plan. At the very least, it may make sense to watch for trend termination patterns on lower time frames when one of these patterns is underway.
 
-Multiple Tests
+### Multiple Tests
 
 This is not to say that price will touch the level once, never to return. It is certainly possible for a level to have multiple tests, and it can be difficult to read the balance of buying and selling conviction on these subsequent tests. Each test actually weakens the level because price should not be able to return to the level if it is going to hold. If there is genuine demand at a level, why did buyers not chase prices higher? Why are we back here? Those are the questions you need to ask. Traditional technical analysis tells us that a level is more valid the more times it is tested, but I believe that this is one of those pieces of the conventional wisdom that is absolutely wrong. If a level is going to hold, it should be tested once, twice, or maybe three times, and then there should be a move away from the level backed by strong conviction. If price is able to return to the level three or more times, probabilities begin to shift in favor of the level breaking. Traders make a critical mistake when they buy in front of the same support level multiple times, because the confidence that comes with earlier successes leads to the temptation to increase position size. This is a recipe for disaster.
 
@@ -1588,14 +1588,14 @@ Last, it is worth mentioning that there is a third possibility for price action 
 
 
 
-TRADING RANGES AS FUNCTIONAL STRUCTURES
+## TRADING RANGES AS FUNCTIONAL STRUCTURES
 
 
 Markets tend to alternate between trending periods and trading ranges. In trends, prices continue moving in the same direction. Because these trends are driven by an imbalance of buying or selling pressure, price movements are somewhat persistent and more predictable in terms of direction, magnitude, and timing. Trading ranges are directionless areas where the market is in relative equilibrium. In these spots, price action is much more random; price action within the range, timing of the exit from the range, and the direction of that eventual exit are all much less predictable than corresponding points in trending markets. Because markets in trading ranges tend to approximate random walks, most traders are well advised to avoid trading within the randomness of these structures and to limit any involvement to the margins, near support or resistance.
 
 In context, trading ranges generally have one of two structural functions relative to the previous trend: they can be large-scale continuation patterns, or they can function as reversal patterns. Traders who are aware of these different functions, and of some of the distinguishing factors that may tilt the odds in favor of one resolution over the other, can often position for the next major trend move within the trading range. Note that this is not the same as trading within the range itself; a trader following this plan is essentially positioning within a higher time frame structure and ignoring minute details on the trading time frame. This is potentially confusing, so some examples will help to clarify this concept.
 
-Continuation Ranges
+### Continuation Ranges
 
 Traditional technical analysis tells us that, all other things being equal, trading ranges are usually consolidations in the trend that preceded them, and are usually continuation patterns. In my experience, this is one of the pieces of conventional wisdom that is correct; it makes sense to approach most ranges with the idea that they will be continuation patterns, that the trend will continue and is “innocent until proven guilty.” It is also often helpful to consider these formations on higher time frames. After an extended trend run on the trading time frame, the market may be essentially unreadable on that time frame as it enters into a large trading range with many unpredictable movements. However, the higher time frame will often tell a simple story: the trading time frame trend may have pushed the higher time frame into an overbought or overextended condition, and the unreadable range on the trading time frame is actually just a simple pullback on the higher time frame. This is a case of a higher time frame providing clarity by pulling us up out of the noise on the focus time frame.
 
@@ -1605,7 +1605,7 @@ FIGURE 4.14 The Weekly Chart (Right) Clarifies an Otherwise Unreadable Situation
 
 
 
-Reversal Ranges
+### Reversal Ranges
 
 The other possibility is that the range can be a reversal of the higher time frame trend. Any of the factors that can suggest an end of a trend on one time frame (overextension, momentum divergence, specific terminating formations, etc.) apply to all time frames. Figure 4.15 shows the S&P 500 Cash index again, this time at the highs in early 2010. The weekly was overextended, and daily price action suggested a certain lack of conviction at the highs. Again, to show that this isn’t hindsight analysis, here is what I wrote in my morning report on April 26, 2010, the point marked A on the daily chart: “The market [may be] vulnerable so that when a shock finally does hit, the effect may be out of all reasonable proportion. This is why we are focusing attention on finding a good spot to enter a countertrend trade.…Today, we have a potential trade setup in the S&P 500 index. If the index closes below the previous YTD high … we will be short.” This turned out to be the exact high of the market for many months, and we were fortunate to cover the last of that short a few days later, near the lows on the day of the Flash Crash.
 
@@ -1615,11 +1615,11 @@ FIGURE 4.15 A Potential Reversal on the Weekly Gives a Downward Bias to the Trad
 
 It is also worth mentioning that there are many cases in which it is not so simple to make a directional call. Though we have just looked at several good examples, realize that they are best-case situations. Sometimes it is not possible to make any kind of directional call, and traders have no justification for taking a position. In these cases it is appropriate to stay flat (to have no position) and to wait for further clarification before making a trade.
 
-Volatility Conditions in Trading Ranges
+### Volatility Conditions in Trading Ranges
 
 I believe it is counterproductive to catalog too many variations of patterns within trading ranges, due to the random nature of price action within these ranges. The Edwards and Magee crowd will recognize more than a dozen variations of trading ranges, but, to me, they are all the same. They all fulfill one of two functions in the higher time frame, and they are all noisy patterns roughly bounded by support and resistance. Why clutter a simple model with unnecessary variations, qualifications, and conditions? Visually, the most important factor in distinguishing between different types of ranges is what is happening with the edges of the range. Is the range contained by parallel lines, are the edges converging, or are they expanding? Each of these may have some subtle differences, with some effect on the expected resolution of the patterns.
 
-Parallel Ranges: The Box
+### Parallel Ranges: The Box
 
 The simplest range is one that trades between parallel prices in a box formation; volatility is relatively constant for the duration of the range. On the lower time frame, we will see trends (it is a little-known fact that many of the best trends occur within higher time frame consolidations) that terminate in the trading time frame support and resistance. The confines of the range may be violated, but violations will usually be short-lived. It is also possible to see prices probe to a level and hold slightly beyond the range, and for the range to now trade between these expanded price levels. Do not naively assume that every break of a range will lead to an actual breakout. Many times, the range is simply expanded, as in Figure 4.16.
 
@@ -1639,7 +1639,7 @@ FIGURE 4.18 A Tighter Consolidation Against Resistance Often Leads to a Break of
 
 
 
-Converging Ranges
+### Converging Ranges
 
 Trading ranges are periods of relative consensus, where the market tends to trade around a price level in equilibrium. One common variation of the trading range idea sees the market making successively smaller swings, as if zeroing in on a target price level. The edges of this range appear to converge at some point in the future, and this pattern often appears to be a triangle on price charts, as in Figure 4.19. Traditionally, the assumption is that these triangles set up good breakout trades, and there are many rules regarding direction and price targets for these breakouts. I have not found any of these traditional rules to be effective or reliable; sometimes they work well, but just as often they do not. My trading rules for triangles are simple and reduce to one principle: do not fade the first breakout from one of these formations. Though these breakouts may not be reliable or consistent enough to build a trading program on, you certainly do not want to be caught on the wrong side of a strong move out of any kind of consolidation.
 
@@ -1655,7 +1655,7 @@ FIGURE 4.20 An Ascending Triangle. Holding Higher Lows into Resistance Is a Sign
 
 Whenever a market makes a very large, sharp movement in one direction, followed by a similar move in the other direction, this suggests confusion on the part of market participants as they try to process whatever information caused the price shock. The normal expectation, following this kind of price movement, is for the market to spend a period of time consolidating, most likely in some kind of converging triangle formation. It is very common to see traders incur multiple losses in these areas because they are first drawn to the market by the large price movements, and then they get caught in the random oscillations of the triangle. Simply by recognizing that a large spike followed by a quick reverse spike usually leads to a triangle and a very suboptimal trading environment, many of these losses can be avoided.
 
-Expanding Ranges
+### Expanding Ranges
 
 Chartists also recognize a number of formations relating to widening triangles where each swing, both up and down, is bigger than the preceding swings. There are also a number of diamond-shaped formations where price first expands and then contracts in a classic triangle, and, of course, there are associated trading rules and targets for each formation. My rule for these is simple: the market is confused (as evidenced by the price action) and I do not have to have a position. I find it difficult to define my risk or to control my positions when volatility is expanding in an unpredictable (nondirectional) fashion. Furthermore, these areas tend to expend a lot of stored-up energy and we do not often see strong moves out of these patterns. More often than not, they resolve into random, directionless, low-volatility ranges. As much as possible, I avoid these types of environments or at least significantly reduce risk in them, but this may not be the right answer for all traders. Figure 4.21 shows a schematic example of a widening range.
 
@@ -1665,7 +1665,7 @@ FIGURE 4.21 An Expanding Range
 
 
 
-SUMMARY
+## SUMMARY
 
 
 Compared to trends, trading ranges are more complicated, and present more challenges and dangers to traders who would trade within these structures. The highly random nature of price action in these ranges often creates illusions of patterns that do not exist. In addition, lower volume and potential liquidity problems create a real danger of large adverse price spikes which result in much larger than expected losing trades. However, market structure rests on an alternation of trending and trading range patterns; it is not possible to truly understand the story of how supply and demand plays out in the market without a thorough understanding of trading ranges, and of price action around support and resistance.
@@ -1676,9 +1676,9 @@ So far, we have looked at both trends and trading ranges in some depth, but our 
 
 
 
-CHAPTER 5
+# CHAPTER 5
 
-Interfaces between Trends and Ranges
+# Interfaces between Trends and Ranges
 
 What we call the beginning is often the end. And to make an end is to make a beginning.
 
