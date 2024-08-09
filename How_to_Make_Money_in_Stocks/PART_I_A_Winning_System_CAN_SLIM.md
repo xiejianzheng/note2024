@@ -12,4 +12,10 @@ When I started investing, I made most of the same mistakes you've probably made.
 
 - You buy stocks when they're nearer to their highs for the year, not when they've sunk lower and look cheap. You buy higher-priced, better quality stocks rather than the lowest-priced stocks.
 
-- You learn to always sell stocks 
+- You learn to always sell stocks quickly when you have a small 7 or 8% loss rather than waiting and hoping they'll come bnack. Many don't.
+
+- You pay far less attention to a company's book value, dividends, or PE ratio - which for the last 100 years have had little predictive value in spotting America's most successful companies - and focus instead on vital historically proven factors such as strong earnings and sales growth, price and volume action, and whether the company is the number one profit leader in its field with a superior new product.
+
+- You don't subscribe to a bunch or market newsletters or advisory services, and you don't let yourself be influenced by recommendations from analysts, or friends who, after all, are just expressing personal opinions that can frequently be wrong and prove costly.
+
+-  
