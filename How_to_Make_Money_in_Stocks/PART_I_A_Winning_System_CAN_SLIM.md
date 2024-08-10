@@ -18,4 +18,14 @@ When I started investing, I made most of the same mistakes you've probably made.
 
 - You don't subscribe to a bunch or market newsletters or advisory services, and you don't let yourself be influenced by recommendations from analysts, or friends who, after all, are just expressing personal opinions that can frequently be wrong and prove costly.
 
--  
+- You also must acquaint yourself with daily, weekly, and monthly price and volume charts - an invaluable tool the best professionals wouldn't do without but amateurs tend to dismiss as irrelevant.
+
+- Lastly, you must use time-tested sell rules to tell you when to sell a stock and take your worthwhile gains. Plus you’ll need buy and sell rules for when it’s best to enter the general market or sell and lower your percent invested. Ninety percent of investors have neither of these essential elements.
+
+All these wise actions are totally contrary to human nature! In reality, the stock market is human nature nad crowd psychology on daily display, plus the age-old law of supply and demand at work. Because these two factors remain the same over time, it is remarkable but true that chart patterns are just the same today as they were 50 years ago or 100 years ago. Few investors know or understand this. it can be your priceless advantage. 
+
+In this forth edition of How to Make Money in Stocks, I'm showing you right up front, in Chapter 1, 100 annotated color charts of 100 of America's greatest winning stocks, covering each decade from the 1880s to the end of 2008 - from the Richmond and Danville Railroad in 1885 and Northern Pacific during the famous corner of the stock in 1901, when it raced from $115 to $700 in one week, to Apple and Google in our twenty-first century.
+
+There is an enormous amount you will learn from studying these great historical examples. You'll see chart base patterns that are repeated year after year with huge success. There are 105 examples(among the 100 stocks) of classic chart bases that look like cups with handles. Some are small cups, other large, and others in between.
+
+In addition  
